@@ -9,7 +9,8 @@ A Java program to listen to other accompaniment accompanied by the lyrics. In th
 Because this program is implemented in Java, you need a Java compiler based on JDK1.7 to compile. The program is distributed as an executable jar file that can be easily executed in a batch file format on Windows. Alternatively, you can run the command java -jar lyrics2music.jar in the console window.
 
 ![](https://matthew.kr/wp-content/uploads/2017/12/lb1.png) ![](https://matthew.kr/wp-content/uploads/2017/12/lb2.png)
-   
+
+
 When you run the program, the main screen will appear as above. The main screen consists of four parts. [Title / Artist Info Window], [Playback Button], [Lyrics Window], [Save, Add Lyrics Button].
 When you run the first program, press New L2M to enter the desired song information.
 ![](https://matthew.kr/wp-content/uploads/2017/12/lb3.png)
