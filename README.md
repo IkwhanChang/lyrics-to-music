@@ -218,44 +218,57 @@ public class CCode  implements Serializable{
 
 ## How to implement important issues
 We used a Subversion for efficient team work. This allows us to create and modify each part to commit, and other vendors to update according to the version. So we were able to finish the project more efficiently.
+
 ![](https://matthew.kr/wp-content/uploads/2017/12/lb7.png)
+
 (Figure: Update for SVN)
 
 The overall structure will be explained later in the diagram, but in the main run, we created a controller to connect the view package to the model package and apply the input values.
 UI used net beans. net Beans is a program that allows you to implement swing.JFrame more efficiently. It was not familiar with Net Beans for the first time, but it was easier to use than expected and I was able to adapt quickly.
  
 ## The result of SW system Design
+
 ![](https://matthew.kr/wp-content/uploads/2017/12/Screen-Shot-2017-12-12-at-9.19.36-PM.png)
+
 (Figure: Class diagram)
 
 ![](https://matthew.kr/wp-content/uploads/2017/12/lb8.png)
+
 (Figure: use-case Diagram)
 
 
 ## Execution Results
 ![](https://matthew.kr/wp-content/uploads/2017/12/lb9.png)
+
 (Figure: Program Main Screen)
 
 ![](https://matthew.kr/wp-content/uploads/2017/12/lb10.png)
+
 (Figure: Title Insertion Screen)
  
 ![](https://matthew.kr/wp-content/uploads/2017/12/lb11.png)
+
 (Figure: Lyrics Insertion Screen)
  
 ![](https://matthew.kr/wp-content/uploads/2017/12/lb12.png)
+
 ![](https://matthew.kr/wp-content/uploads/2017/12/lb13.png)
+
 (Figure: Code Insertion Screen)
  
 ![](https://matthew.kr/wp-content/uploads/2017/12/lb17.png)
+
 (Figure: Playing the song)
  
 ## What applied object oriented concepts to our program
 ![](https://matthew.kr/wp-content/uploads/2017/12/lb18.png)
+
 (Figure: Data and action flow diagram of the overall program)
 
 The overall structure of our program uses MVC (Model-View-Controller). What we focused on was the OOP concept, which facilitated scalability and minimized the use of objects. Most of all, we think that the most problematic thing when writing a Java program is an abuse of an object. In fact, we tried to approach the interface and abstraction at first, but we understand that the whole data type, that is, the CCode or CLyrics part we created, It is difficult to attach an OOP element. In the case of the first program, there is a separate controller for the code and a class for processing all the logic. There were six logic classes.
 
 ![](https://matthew.kr/wp-content/uploads/2017/12/lb19.png)
+
 (Figure: Concrete diagram of the model used in the program)
 
 Also, because we did not manage the objects separately, we tried to create the objects themselves in all view or logic processing classes and tried to pass these data through the copy constructor, etc., but the source was twisted.
