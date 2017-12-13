@@ -2,7 +2,7 @@
 A Java program to listen to other accompaniment accompanied by the lyrics. In the guitar code of 4/4 time, the user collects the lyrics and the code for each word and completes one song.
 
 ## Note
-(This project was my first object-orinted programming class in 2012. After I quit my 3-years experience in Java programmer, I tried to take a lot of classes such as OOP, Data Structure, Algorithms and so on. Although this project has a bad GUI, I remember it was quite a good project for learning the OOP's default concept as well as some design patterns.)
+(This project was my first object-orinted programming class in 2012. After I quitted my 3-years experience in Java programmer, I tried to take a lot of classes such as OOP, Data Structure, Algorithms and so on. Although this project has a bad GUI, I remember it was quite a good project for learning the OOP's default concept as well as some design patterns.)
 
 
 ## How to Run
