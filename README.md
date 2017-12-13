@@ -271,10 +271,7 @@ Instead we focused on the MVC model according to the Singleton pattern. The only
 
 But here we tried to pull the controller into the interface, but it failed. We did not know how to use it, but most of all, we focused on raising the completeness of the program, rather than extending it through the interface, as a result of deeply considering whether we need to consider reusability with only one controller.
 
-
-========================
-BUILD OUTPUT DESCRIPTION
-========================
+## How to Run
 
 When you build an Java application project that has a main class, the IDE
 automatically copies all of the JAR
