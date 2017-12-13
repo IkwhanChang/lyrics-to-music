@@ -13,12 +13,16 @@ Because this program is implemented in Java, you need a Java compiler based on J
 
 When you run the program, the main screen will appear as above. The main screen consists of four parts. [Title / Artist Info Window], [Playback Button], [Lyrics Window], [Save, Add Lyrics Button].
 When you run the first program, press New L2M to enter the desired song information.
+
 ![](https://matthew.kr/wp-content/uploads/2017/12/lb3.png)
 ![](https://matthew.kr/wp-content/uploads/2017/12/lb4.png)
+
    
 Then the title / artist window will display the above information. After the information is displayed, all we have to do is add the lyrics. To add the lyrics add the lyrics by pressing the add Lyrics button on the Save, Add Lyrics panel.
+
 ![](https://matthew.kr/wp-content/uploads/2017/12/lb5.png)
 ![](https://matthew.kr/wp-content/uploads/2017/12/lb6.png)
+
    
 Then the lyrics are added as above. If you add multiple lyrics, you can select the code by pressing the Code button so that you can select the code you want.
 
